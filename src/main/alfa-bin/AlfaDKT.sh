@@ -23,5 +23,5 @@ else
 fi
 say "--------------------------------------------------------------------"
 
-java -jar ${INSTALACION}/alfa-1.2/Alfa-dkt-1.2-Z.jar ${*}
+java -jar ${INSTALACION}/alfa-1.0/Alfa-dkt-1.0-Z.jar ${*}
 

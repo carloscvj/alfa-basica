@@ -36,5 +36,5 @@ rm -rf /tmp/gfembed*
 
 
 
-java -jar ${INSTALACION}/alfa-1.2/Alfa-gfs-1.2-Z.jar ${*} &
+java -jar ${INSTALACION}/alfa-1.0/Alfa-gfs-1.0-Z.jar ${*} &
 

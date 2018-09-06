@@ -21,5 +21,5 @@ fi
 
 say "--------------------------------------------------------------------"
 
-java -jar ${INSTALACION}/alfa-1.2/Alfa-gui-1.2-Z.jar ${*}
+java -jar ${INSTALACION}/alfa-1.0/Alfa-gui-1.0-Z.jar ${*}
 

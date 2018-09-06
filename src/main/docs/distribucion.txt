@@ -3,6 +3,6 @@
 Distribución alfa de alfa.
 ======================================================
 
-http://129.0.0.1:32080/repository/alfa/es/cvjpy/alfa/alfa/1.2/
+http://129.0.0.1:32080/repository/alfa/es/cvjpy/alfa/alfa/1.0/
 
 ======================================================
