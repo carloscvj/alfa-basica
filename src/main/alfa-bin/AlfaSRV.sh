@@ -24,17 +24,5 @@ fi
 say "--------------------------------------------------------------------"
 
 
-######################## ACUERDATE DE QUITAR ESTO CUANDO TERMINES ###########################
-pamatar=`ps xa|grep Alfa-gfs|awk '{print $1}'`
-for i in ${pamatar}
-do
-    kill -9 $i 2>/dev/null
-done
-
-rm -rf /tmp/gfembed*
-######################### HASTA AQUÍ ########################################################
-
-
-
-java -jar ${INSTALACION}/alfa-1.0/Alfa-gfs-1.0-Z.jar ${*} &
+java -jar ${INSTALACION}/alfa-basica-1.0/alfa-basica-srv-1.0-Z.jar ${*} &
 

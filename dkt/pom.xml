@@ -27,7 +27,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>es.cvjpy.AlfaDKT</mainClass>
+                            <mainClass>es.cvjpy.AlfaZ</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -41,5 +41,15 @@
             <artifactId>alfa-basica-rec</artifactId>
             <version>${project.version}</version>
         </dependency>    
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>alfa-dao</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>alfa-gui</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>

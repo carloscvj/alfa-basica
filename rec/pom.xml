@@ -39,18 +39,5 @@
         </plugins>
     </build>
     
-    <dependencies>
-        <dependency>
-            <groupId>es.cvjpy.alfa</groupId>
-            <artifactId>alfa-dao</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>es.cvjpy.alfa</groupId>
-            <artifactId>alfa-gui</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
     
 </project>
