@@ -25,8 +25,8 @@
   
     <target name="distribuir" depends="init">
         
-        <copy todir="${distribuir.destino}/alfa-bin" verbose="true">
-            <fileset dir="${project.cor}/src/main/alfa-bin"></fileset>
+        <copy todir="${distribuir.destino}/base-bin" verbose="true">
+            <fileset dir="${project.cor}/src/main/base-bin"></fileset>
         </copy>
 
         <mkdir dir="target/dist"></mkdir>
@@ -62,7 +62,7 @@
         <exec executable="chmod">
             <arg value="-R"/>
             <arg value="ugo+x"/>
-            <arg value="${distribuir.destino}/alfa-bin"/>
+            <arg value="${distribuir.destino}/base-bin"/>
         </exec>              
     </target>
 
