@@ -11,6 +11,7 @@
     
     <groupId>es.cvjpy.alfa</groupId>
     <artifactId>alfa-basica-srv</artifactId>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>162 - alfa-basica-srv - Jar main para el servidor de COBOL</name>
@@ -49,7 +50,7 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>alfa-gui</artifactId>
-            <version>${project.version}</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 </project>
