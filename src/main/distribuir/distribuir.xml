@@ -4,7 +4,7 @@
     <target name="propiedades" >
         <property name="eljar" value="dkt/target/alfa-basica-dkt-${project.dkt.version}-Z.jar"/>
     </target>
-    
+    <!--
     <target name="desplegar" depends="propiedades">
         <unzip src="${eljar}" dest="./target/dist" overwrite="true">
             <patternset>
@@ -13,8 +13,8 @@
             </patternset>
         </unzip>
     </target>
-    
-    <target name="init" depends="desplegar">
+    -->
+    <target name="init" depends="propiedades">
         <property name="distribuir.destino" value="${user.home}/local/${project.dkt.carpeta}-${project.dkt.version}"/>
         <echo level="info" message="--------------------------------------------------------------------------"></echo>
         <echo level="info" message="basedir=${basedir}"></echo>
@@ -37,6 +37,11 @@
         <copy todir="${distribuir.destino}" verbose="true">
             <fileset dir="dkt/target" includes="**/*Z.jar"></fileset>
         </copy>
+        
+        <copy todir="${distribuir.destino}/base-lib" verbose="true">
+            <fileset dir="${project.dao}/target/lib" includes="**/*.so"></fileset>
+        </copy>
+        
        <!-- 
         <copy todir="${distribuir.destino}" verbose="true">
             <fileset dir="${project.cor}/ejb/target" includes="**/*.jar" excludes="**/endorsed/**,**/surefire/**"></fileset>
