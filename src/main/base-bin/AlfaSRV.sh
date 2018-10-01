@@ -24,5 +24,5 @@ fi
 say "--------------------------------------------------------------------"
 
 
-java -jar ${INSTALACION}/alfa-basica-1.0/alfa-basica-srv-1.0-Z.jar ${*} &
+java -jar ${INSTALACION}/alfa-basica-1.1/alfa-basica-srv-1.1-Z.jar ${*} &
 
