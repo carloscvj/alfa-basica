@@ -42,6 +42,9 @@ then
 else
 	export INSTALACION=/usr/local;say "INSTALACION=${INSTALACION}"
 fi
+
+export COB_LIBRARY_PATH=${INSTALACION}/lib;say "COB_LIBRARY_PATH=${COB_LIBRARY_PATH}"
+
 if [ "${CARPETA}" ]
 then
 	say "CARPETA=${CARPETA}"

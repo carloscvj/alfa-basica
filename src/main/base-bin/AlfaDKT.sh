@@ -21,6 +21,8 @@ then
 else
 	export INSTALACION=/usr/local;say "INSTALACION=${INSTALACION}"
 fi
+export COB_LIBRARY_PATH=${INSTALACION}/lib;say "COB_LIBRARY_PATH=${COB_LIBRARY_PATH}"
+
 say "--------------------------------------------------------------------"
 
 java -jar ${INSTALACION}/alfa-basica-1.1/alfa-basica-dkt-1.1-Z.jar ${*}
