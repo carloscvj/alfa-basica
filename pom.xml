@@ -10,14 +10,14 @@
 
     <groupId>es.cvjpy.alfa</groupId>
     <artifactId>alfa-basica</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>2.0</version>
     <packaging>pom</packaging>
     
     <properties>
         <project.cor>${basedir}</project.cor>
         <project.dao>${basedir}/../alfa-dao</project.dao>
         <project.dkt.carpeta>alfa-basica</project.dkt.carpeta>
-        <project.dkt.version>1.1</project.dkt.version>
+        <project.dkt.version>2.0</project.dkt.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
